@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var";
+  }
+}
+
+html {
+  @apply bg-black text-white;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
