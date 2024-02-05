@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unnamed Group | Non-Profit Gaming Community</title>
+    <link rel="shortcut icon" href="./logo24.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+      :root {
+        --carpet-blue-r: 0;
+        --carpet-blue-g: 0;
+        --carpet-blue-b: 41;
+        --carpet-blue: rgb(
+          var(--carpet-blue-r),
+          var(--carpet-blue-g),
+          var(--carpet-blue-b)
+        );
+      }
+
+      html {
+        background-color: var(--carpet-blue);
+        background-image: url(./arcade_carpet.png);
+        background-size: 400px;
+        font-family: "Inter";
+        color: white;
+      }
+
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        backdrop-filter: blur(3px);
+        background-color: rgba(
+          var(--carpet-blue-r),
+          var(--carpet-blue-g),
+          var(--carpet-blue-b),
+          0.5
+        );
+      }
+    </style>
+  </head>
+  <body class="flex justify-center h-screen">
+    <main class="p-4 space-y-8">
+      <nav class="flex flex-row justify-between items-center">
+        <img src="./logo24.png" alt="Unnamed Group" class="h-24 mr-4" />
+
+        <div class="flex-grow text-3xl space-x-2">
+          <!-- <a href="/about"> About </a> -->
+          <a href="https://shop.unnamed.group"> Shop </a>
+          <!-- <a href="/donate"> Donate </a> -->
+        </div>
+
+        <div class="flex flex-row space-x-4 pt-4">
+          <a href="https://gitlab.com/unnamed.group">
+            <img
+              src="https://cdn.simpleicons.org/gitlab"
+              alt="GitLab"
+              class="h-8"
+            />
+          </a>
+          <a href="https://discord.gg/JnDGdHp9JV">
+            <img
+              src="https://cdn.simpleicons.org/discord"
+              alt="Discord"
+              class="h-8"
+            />
+          </a>
+          <a href="https://twitter.com/UnnamedGroupX">
+            <img
+              src="https://cdn.simpleicons.org/twitter"
+              alt="Twitter/X"
+              class="h-8"
+            />
+          </a>
+        </div>
+      </nav>
+
+      <div class="space-y-4">
+        <h2 class="text-4xl font-bold">Hello, @everyone!</h2>
+
+        <p class="text-2xl">
+          Unnamed Group is a non-profit organisation dedicated to developing and
+          promoting communities that are fun, inclusive, and welcoming to all.
+          We believe that games should be fun, not work.
+        </p>
+
+        <p class="text-2xl">
+          We are currently working on a number of projects, including:
+
+            <ul class="text-2xl pl-4 space-y-4">
+                <li><b>UAGPMC:</b> A no-BS milsim community formed on the idea of real fun with friends. No training or exams, and definitely no "yes sir, no sir" bootcamp simulations.</li>
+                <li><b>Unnamed Esports:</b> Non-profit esports organization that aims to provide a safe and fun environment for gamers of all skill levels to compete in.</li>
+            </ul>
+        </p>
+
+        <p class="text-2xl">
+          Feel free to join our Discord server and say hello, or email us at
+          hello@unnamed.group for any business enquiries.
+        </p>
+      </div>
+
+      <footer class="text-center text-xs">
+        Est. 2016 – Inc. 2023 (<a href="https://find-and-update.company-information.service.gov.uk/company/14751183">14751183</a>)
+      </footer>
+    </main>
+  </body>
+</html>
